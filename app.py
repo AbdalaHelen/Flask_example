@@ -3,9 +3,9 @@ from flask import Flask, jsonify, request, abort, make_response
 app = Flask(__name__)
 
 games = [
-    {'id': 1, 'title': 'The Witcher 3', 'year': '2015', 'read': False},
-    {'id': 2, 'title': 'Ori and Blind Forest', 'year': '2015', 'read': True},
-    {'id': 3, 'title': 'Little Nightmares', 'year': '2017', 'read': False}
+    {'id': 1, 'title': 'The Witcher 3', 'year': '2015', 'finished': False},
+    {'id': 2, 'title': 'Ori and Blind Forest', 'year': '2015', 'finished': True},
+    {'id': 3, 'title': 'Little Nightmares', 'year': '2017', 'finished': False}
 ]
 
 
